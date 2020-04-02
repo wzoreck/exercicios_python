@@ -1,0 +1,7 @@
+-------- VARIÁVEIS COMPOSTAS ----------
+
+Existem 3 tipos de variáveis compostas em Python: Tuplas, Listas e Dicionários
+
+Tupla - Similar a um vetor, posições são acessadas por índices 0, 1, 2...
+
+As tuplas são imutáveis, se declaradas e atribuidas valores uma vez, não é possível alterar
