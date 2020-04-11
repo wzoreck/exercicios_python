@@ -39,6 +39,9 @@ print(pessoa[2:])
 # 
 print(comida)
 
+# Organizado
+print('Sorted: ',sorted(comida))
+
 print('----------------------------')
 # A variável i receberá um valor da tupla por vez!
 for i in comida:
@@ -49,6 +52,15 @@ print('----------------------------')
 for i in pessoa:
 	if i == 'Ana':
 		print('Encontramos a Ana!!!!!!!')
+
+for i in range(0, len(pessoa)):
+	if pessoa[i] == 'Ana':
+		print(f'Posição índice onde Ana está alocada {i}')
+
+print('----------------------------')
+# Outra forma
+for i, c in enumerate(comida):
+	print(f'Comida: {c}, posição: {i}')
 
 
 print('----------------------------')
