@@ -21,7 +21,7 @@ print(lanche)
 
 # Criar Lista com Range
 numeros = list(range(0, 100))
-print(numeros)
+#print(numeros)
 
 x = [1, 6, 9, 2, 0]
 print('Desordenado {}'.format(x))
@@ -30,7 +30,13 @@ print('Ordenado {}'.format(x))
 x.sort(reverse=True)
 print('Ao contrário {}'.format(x))
 
+'''
 if 30 in numeros:
 	numeros.remove(30)
 else:
 	print('Número não encontrado!')
+'''
+
+# Forma de printar com For de forma horizintal
+for i in x:
+	print(f'N: {i} ', end='')
