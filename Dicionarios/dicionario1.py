@@ -23,6 +23,8 @@ filme = { 'titulo':'Senhor dos Anéis',
 					'diretor':'Peter Jackson'
 				}
 
+filme['titulo'] = 'Lord of Rings'
+
 print(f'Valores: {filme.values()}')
 print(f'Chaves: {filme.keys()}')
 print(f'Todos itens: {filme.items()}\n')
