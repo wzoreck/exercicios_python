@@ -25,7 +25,7 @@ print(len(tuple))
 
 # encerra o script sem saida de erro
 # comente ou mude de linha para estudar o resto do arquivo
-sys.exit(0)
+#sys.exit(0)
 
 # iteracao identica
 for p in list:
@@ -73,5 +73,17 @@ print(survey[1])
 ###
 
 # 1) Imprima os metodos disponiveis para uma lista e para uma tupla
-# 2) Faca um metodo para retornar apenas as diferencas entre as duas de metodos
+print(dir(list))
+print(dir(tuple))
+# 2) Faca um metodo para retornar apenas as diferencas entre as duas de metodo
+'''
+Não consegui
+'''
+
 # 3) Adicione as coordenadas (latitude, longitude) para os dicts professor1, professor2 e professor3. Copie os dicts do arquivo 106.py. As coordenadas precisam ser inseparaveis e imutaveis.
+professor1 = {'id': 42, 'name': 'Alexandre Abreu', 'age': 30, 'state_origin': 'Minas Gerais', 'courses': ['Inteligência Artificial', 'Mineração de Dados', 'Programação para Internet I', 'Programação para Internet II'], 'latitude':('234.4534.5464'), 'longitude':('5436.57568.46')}
+
+professor2 = {'id': 37, 'name': 'Denilson Barbosa', 'age': 40, 'state_origin': 'Paraná', 'courses': ['Inteligência Artificial', 'Banco de Dados I', 'Banco de Dados II', 'Programação para Internet I'], 'laitude':('123421.43534.4'), 'longitude':('32423.235346.54')}
+
+print(professor1)
+print(professor2)

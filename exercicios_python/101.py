@@ -23,11 +23,11 @@ print(e)
 # Tipo de um objeto (tudo eh objeto em python)
 print(type(a))
 print(type(b))
-'''
+
 # Metodos disponiveis para o objeto
 print(dir(a))
 print(dir(b))
-
+'''
 # Ajuda para o objeto
 print(help(a))
 print(help(b))
