@@ -1,5 +1,7 @@
 class Pessoa:
 
+    ano = 2021
+
     # __init__ é o metodo construtor da classe, neste caso o parametro adulto já possui um valor padrão,
     # caso não seja informada vai ficar com o valor padrão
     def __init__(self, nome, idade, adulto=False):
@@ -25,3 +27,13 @@ class Pessoa:
     
     def getNome(self):
         return self.nome
+
+    def getIdade(self):
+        return self.idade
+    
+    # Metodo estatico no Python, pode ser chamado sem haver uma instância da classe
+    # Essas notações com @ são mencionadas como decorado (decorator)
+    @staticmethod
+    def getIdade(anoNasc):
+        ano = 2021
+        return ano - anoNasc
